@@ -27,7 +27,6 @@ public class Main {
 
 		// uploadImage("/Users/koumanwei/Desktop/nihao.png",
 		// "http://192.168.1.208/img.php");
-		getStrLength();
 	}
 
 	private static void copy(String src, String des) {
@@ -126,10 +125,5 @@ public class Main {
 				}
 			}
 		});
-	}
-
-	private static void getStrLength() {
-		String str = "";
-		System.out.println(str.length());
 	}
 }
