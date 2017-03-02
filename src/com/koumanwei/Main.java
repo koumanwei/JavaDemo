@@ -27,6 +27,7 @@ public class Main {
 
 		// uploadImage("/Users/koumanwei/Desktop/nihao.png",
 		// "http://192.168.1.208/img.php");
+		// 测试上传提交
 	}
 
 	private static void copy(String src, String des) {
