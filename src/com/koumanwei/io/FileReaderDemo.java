@@ -11,10 +11,9 @@ public class FileReaderDemo {
 		// 2、既然是文件，可以使用字符流，综合，使用字符输入流，该体系是Reader
 		// 3、既然是读取文本文件，可以使用FileWriter，用于读取字符文件的便捷类
 
-		FileReader fileReader = null;
 		// 通过FileReader和指定的文件相关联，此文件可能不存在，FileNotFoundException是io异常的子类
 		// 读取文件不存在flush功能
-		fileReader = new FileReader("/Users/koumanwei/Desktop/demo.txt");
+		FileReader fileReader = new FileReader("/Users/koumanwei/Desktop/demo.txt");
 		// 一次读取一个字符，返回改字符对应的数字，返回-1，代表读取到了末尾
 		// int ch = fileReader.read();
 		// fileReader.close();
@@ -25,5 +24,6 @@ public class FileReaderDemo {
 		while ((ch = fileReader.read()) != -1) {
 			System.out.println((char) ch);
 		}
+		fileReader.close();
 	}
 }
