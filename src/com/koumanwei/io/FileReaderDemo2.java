@@ -3,8 +3,6 @@ package com.koumanwei.io;
 import java.io.FileReader;
 import java.io.IOException;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 public class FileReaderDemo2 {
 	public static void main(String[] args) throws IOException {
 		// 需求：演示Reader中的read(char[])
