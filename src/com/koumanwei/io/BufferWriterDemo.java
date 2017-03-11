@@ -14,7 +14,7 @@ public class BufferWriterDemo {
 		// 创建了一个字符流写入流的缓冲区对象，并和指定要被缓冲的流对象相关联
 		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 		// 使用缓冲区的写入方法将数据写入到缓冲区中
-		bufferedWriter.write("adbdef" + LINE_SEPARATOR + "jaja");
+		bufferedWriter.write("adbdef" + LINE_SEPARATOR + "你好");
 		// 写入一个换行符，注意：newLine只是这个对象具有，不能代替上面的分隔符，而上面的换行符
 		// 在任何地方都适用
 		bufferedWriter.newLine();
