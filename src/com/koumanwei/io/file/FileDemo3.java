@@ -13,7 +13,7 @@ public class FileDemo3 {
 		File out = new File("/Users/koumanwei/Desktop/kk");
 		// showDir(dir);
 		// deleteDir(dir);
-		copyDir(in, out);
+		copyDir2("G:/java", "G:/nihao");
 	}
 
 	/**
@@ -57,29 +57,24 @@ public class FileDemo3 {
 		dir.delete();
 	}
 
-	/**
-	 * 复制文件或者文件夹
-	 * 
-	 * @throws IOException
-	 */
-	private static void copyFile(File in, File out) throws IOException {
-		// 遍该目录下
+	private static void copy(File in, File out) throws IOException {
 		File[] files = in.listFiles();
 		for (File f : files) {
 			if (f.isDirectory()) {
 				// 递归调用
 				File file = new File(out, f.getName());
 				file.mkdirs();
-				copyFile(f, file);
+				copy(f, file);
 			} else {
 				// 拷贝单个文件
 				FileInputStream fileInputStream = new FileInputStream(f);
 				FileOutputStream fileOutputStream = new FileOutputStream(out.getPath() + File.separator + f.getName());
 				BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
 				BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
-				int ch = 0;
-				while ((ch = bufferedInputStream.read()) != -1) {
-					bufferedOutputStream.write(ch);
+				byte[] buf = new byte[1024];
+				int len = 0;
+				while ((len = bufferedInputStream.read(buf)) != -1) {
+					bufferedOutputStream.write(buf, 0, len);
 				}
 				bufferedInputStream.close();
 				bufferedOutputStream.close();
@@ -87,11 +82,33 @@ public class FileDemo3 {
 		}
 	}
 
+	/**
+	 * 复制文件夹
+	 * 
+	 * @throws IOException
+	 */
 	private static void copyDir(File in, File out) throws IOException {
 		File file = new File(out, in.getName());
+		// 如果拷贝的是文件夹
 		if (!file.exists()) {
 			file.mkdir();
 		}
-		copyFile(in, file);
+		copy(in, file);
+	}
+
+	/**
+	 * 复制文件夹
+	 * 
+	 * @param in
+	 * @param out
+	 * @throws IOException
+	 */
+	private static void copyDir2(String in, String out) throws IOException {
+		File inPath = new File(in);
+		File outPath = new File(out, inPath.getName());
+		if (!outPath.exists()) {
+			outPath.mkdirs();
+		}
+		copy(inPath, outPath);
 	}
 }
