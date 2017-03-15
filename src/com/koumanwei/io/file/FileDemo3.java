@@ -13,7 +13,7 @@ public class FileDemo3 {
 		File out = new File("/Users/koumanwei/Desktop/kk");
 		// showDir(dir);
 		// deleteDir(dir);
-		copyFile(in, out);
+		copyDir(in, out);
 	}
 
 	/**
@@ -63,27 +63,35 @@ public class FileDemo3 {
 	 * @throws IOException
 	 */
 	private static void copyFile(File in, File out) throws IOException {
+		// 遍历改目录下
 		File[] files = in.listFiles();
 		for (File f : files) {
 			if (f.isDirectory()) {
 				// 递归调用
-				File file = new File(out.getPath() + f.getParent());
-				System.out.println(file);
+				File file = new File(out, f.getName());
 				file.mkdirs();
 				copyFile(f, file);
 			} else {
 				// 拷贝单个文件
-				FileInputStream fileInputStream = new FileInputStream(f.getPath());
-				FileOutputStream fileOutputStream = new FileOutputStream(out.getAbsolutePath() + f.getPath());
+				FileInputStream fileInputStream = new FileInputStream(f);
+				FileOutputStream fileOutputStream = new FileOutputStream(out.getPath() + File.separator + f.getName());
 				BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
 				BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
 				int ch = 0;
-				while ((ch = bufferedInputStream.read()) != 0) {
+				while ((ch = bufferedInputStream.read()) != -1) {
 					bufferedOutputStream.write(ch);
 				}
 				bufferedInputStream.close();
 				bufferedOutputStream.close();
 			}
 		}
+	}
+
+	private static void copyDir(File in, File out) throws IOException {
+		File file = new File(out, in.getName());
+		if (!file.exists()) {
+			file.mkdir();
+		}
+		copyFile(in, file);
 	}
 }
