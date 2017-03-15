@@ -6,14 +6,15 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 public class FileDemo3 {
 	public static void main(String[] args) throws IOException {
-		File in = new File("/Users/koumanwei/Desktop/nihaoshijie");
-		File out = new File("/Users/koumanwei/Desktop/kk");
-		// showDir(dir);
-		// deleteDir(dir);
-		copyFile(in, out);
+		File in = new File("G:\\nihao");
+		File out = new File("E:\\shijie");
+		copyFolder(in, out);
+//		copyFile("g:/nihao/abd.txt","e:/aaa/adb.txt");
 	}
 
 	/**
@@ -62,28 +63,31 @@ public class FileDemo3 {
 	 * 
 	 * @throws IOException
 	 */
-	private static void copyFile(File in, File out) throws IOException {
-		File[] files = in.listFiles();
-		for (File f : files) {
-			if (f.isDirectory()) {
-				// 递归调用
-				File file = new File(out.getPath() + f.getParent());
-				System.out.println(file);
-				file.mkdirs();
-				copyFile(f, file);
-			} else {
-				// 拷贝单个文件
-				FileInputStream fileInputStream = new FileInputStream(f.getPath());
-				FileOutputStream fileOutputStream = new FileOutputStream(out.getAbsolutePath() + f.getPath());
-				BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
-				BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
-				int ch = 0;
-				while ((ch = bufferedInputStream.read()) != 0) {
-					bufferedOutputStream.write(ch);
-				}
-				bufferedInputStream.close();
-				bufferedOutputStream.close();
+	public static void copyFolder(File src, File dest) throws IOException {  
+	    if (src.isDirectory()) {  
+	        if (!dest.exists()) {  
+	            dest.mkdir();  
+	        }  
+	        String files[] = src.list();  
+	        for (String file : files) {  
+	            File srcFile = new File(src, file);  
+	            File destFile = new File(dest, file);  
+	            // 递归复制  
+	            copyFolder(srcFile, destFile);  
+	        }  
+	    } else {  
+	    	FileInputStream fileInputStream = new FileInputStream(src);
+			System.out.println("拷贝文件源路径：" + src.getPath());
+			FileOutputStream fileOutputStream = new FileOutputStream(dest.getPath());
+			System.out.println("拷贝的文件的目标路径：" + dest.getPath());
+			BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
+			BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
+			int ch = 0;
+			while ((ch = bufferedInputStream.read()) != -1) {
+				bufferedOutputStream.write(ch);
 			}
-		}
-	}
+			bufferedInputStream.close();
+			bufferedOutputStream.close();
+	    }  
+	}  
 }
