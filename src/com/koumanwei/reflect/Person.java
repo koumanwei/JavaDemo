@@ -13,4 +13,8 @@ public class Person {
 	public Person() {
 		super();
 	}
+
+	private void show() {
+		System.err.println("我是Person中的私有方法");
+	}
 }
