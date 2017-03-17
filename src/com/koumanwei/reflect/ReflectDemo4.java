@@ -8,6 +8,7 @@ public class ReflectDemo4 {
 			throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException,
 			SecurityException, IllegalArgumentException, InvocationTargetException {
 		getMethodDemo();
+		getMethodDemo2();
 	}
 
 	/**
@@ -31,5 +32,28 @@ public class ReflectDemo4 {
 		declaredMethod.setAccessible(true);
 		// 运行方法需要对象和实际参数
 		declaredMethod.invoke(newInstance, null);
+	}
+
+	/**
+	 * 注意获取参数中是String数组的获取情况
+	 * 
+	 * @throws ClassNotFoundException
+	 * @throws NoSuchMethodException
+	 * @throws SecurityException
+	 * @throws IllegalAccessException
+	 * @throws IllegalArgumentException
+	 * @throws InvocationTargetException
+	 * @throws InstantiationException
+	 */
+	private static void getMethodDemo2() throws ClassNotFoundException, NoSuchMethodException, SecurityException,
+			IllegalAccessException, IllegalArgumentException, InvocationTargetException, InstantiationException {
+		Class clazz = Class.forName("com.koumanwei.reflect.Person");
+		Method method = clazz.getMethod("show", String[].class);
+		// 这里必须包装
+		method.invoke(clazz.newInstance(), new Object[] { new String[] { "nihao", "shijie" } });
+		method.invoke(clazz.newInstance(), (Object) new String[] { "nihao", "shijie" });
+
+		Method method1 = clazz.getMethod("show", int[].class);
+		method1.invoke(clazz.newInstance(), new int[] { 5, 9, 12 });
 	}
 }
