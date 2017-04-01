@@ -32,5 +32,32 @@ public class IfDemo {
         // 简写格式什么时候用：
         // 当ifelse运算后，有一个具体的结果时，可以简化成三元元算
         // 因为三元运算是运算符，必须有一个结果
+
+        /**
+         *   if的第二种格式：if(){}else if()...{}else{}
+         */
+        // 虽然有多行，但是他们是单条语句
+        // 虽然由多个代码块组成，但是只有一个会执行
+    }
+
+    public static void getMonth() {
+        // 输出季节
+        // 3 4 5 春
+        // 6 7 8 夏
+        // 9 10 11 秋
+        // 12 1 2 冬
+        int month = 1;
+        if (month > 12 || month < 1) {
+            System.out.println("该月份不存在");
+        } else if (month >= 3 && month <= 5) {
+            System.out.println("春季");
+        } else if (month >= 6 && month <= 8) {
+            System.out.println("夏季");
+        } else if (month >= 9 && month <= 11) {
+            System.out.println("秋季");
+        } else {
+            System.out.println("冬季");
+        }
+        // 因为12 1 2不好判断，所以先否定掉不存在的情况，然后在存在的前提下做出分类
     }
 }
