@@ -6,7 +6,7 @@ package com.koumanwei.base;
  * @author koumanwei
  * @version 1
  */
-public class ArryDemo {
+public class ArrayDemo {
     public static void main(String[] args) {
         // 数组的定义：
         // 同一种类型数据的集合。其实数组就是一个容器

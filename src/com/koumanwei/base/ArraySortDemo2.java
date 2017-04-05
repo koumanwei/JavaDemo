@@ -6,7 +6,7 @@ package com.koumanwei.base;
  * @author koumanwei
  * @version 1
  */
-public class ArrySortDemo2 {
+public class ArraySortDemo2 {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 8, 3, 4, 5, 6, 7, 2, 9};
         sort(arr);

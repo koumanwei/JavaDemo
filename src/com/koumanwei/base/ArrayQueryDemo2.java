@@ -1,4 +1,4 @@
-package com.koumanwei.base;
+ package com.koumanwei.base;
 
 /**
  * 2017-04-04 20:48
@@ -6,7 +6,7 @@ package com.koumanwei.base;
  * @author koumanwei
  * @version 1
  */
-public class ArryQueryDemo {
+public class ArrayQueryDemo2 {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 7};
         int index = getIndex(arr, 4);
