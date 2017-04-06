@@ -1,6 +1,6 @@
 package com.koumanwei.keyword;
 
-public class FileDemo {
+public class FinalDemo {
 	public static void main(String[] args) {
 		// final可以修饰类，方法，变量
 		// 1、修饰的类不可以被继承
