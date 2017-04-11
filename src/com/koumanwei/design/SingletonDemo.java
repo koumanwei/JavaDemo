@@ -65,3 +65,31 @@ class Singleton2 {
         return instance;
     }
 }
+
+/**
+ * 懒汉式（单例的延迟加载方式）（线程安全）
+ */
+// 在被多线程并发访问时，会出现多线程安全问题
+// 为了解决，加入了同步，虽然安全问题解决了，但是性能降低了
+class Singleton3 {
+    private static Singleton3 instance = null;
+
+    private Singleton3() {
+    }
+
+    // 当函数里面的代码都需要同步时，可以直接使用同步函数
+    // 但是同步函数在这里效率较低，所以用同步函数
+    // 这里降低了判断锁的次数
+    // 可以通过双重判断的形式来完成这个过程
+//    public synchronized static Singleton3 getInstance() {
+    public synchronized static Singleton3 getInstance() {
+        if (instance == null) {
+            synchronized (Singleton3.class) {
+                if (instance == null) {
+                    instance = new Singleton3();
+                }
+            }
+        }
+        return instance;
+    }
+}
