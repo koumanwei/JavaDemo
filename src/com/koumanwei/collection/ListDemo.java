@@ -16,6 +16,8 @@ public class ListDemo {
     }
 
     public static void show(List list) {
+
+        // List可以完成对元素的增删改查
         // 添加元素
         list.add("abc0");
         list.add("abc1");
