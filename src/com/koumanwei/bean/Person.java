@@ -6,7 +6,7 @@ package com.koumanwei.bean;
  * @author koumanwei
  * @version 1.0
  */
-public class Person {
+public class Person implements Comparable {
     private String name;
     private int age;
 
@@ -52,5 +52,18 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return name + ":" + age;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Person person = (Person) o;
+        // 如果年龄相同，继续比较姓名
+        int temp = this.age - person.age;
+        return temp == 0 ? this.compareTo(person.name) : temp;
     }
 }
