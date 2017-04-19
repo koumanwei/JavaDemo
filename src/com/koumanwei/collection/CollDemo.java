@@ -88,3 +88,25 @@ public class CollDemo {
 // 其他
 // boolean retainAll() 取交集
 // Object[] toArray() 将集合转成数组
+
+// 集合的一些技巧：
+// 需要唯一吗？
+//     需要：Set
+//         需要指定顺序吗？
+//             需要：TreeSet
+//             不需要：HashSet
+//             但是想要一个和存储一致的顺序（有序）：LinkedHashSet
+//     不需要：List
+//         需要频繁增删吗？
+//             需要：LinkedList
+//             不需要：ArrayList
+// 如何记住每个容器的结构和所属体系呢？
+// 看名字！
+// 后缀名就是该集合所属的体系
+// 前缀名就是该集合的数据结构
+// 看到Array就要想到数组，查询块，有角标
+// 看到Link就想想到链表，就要想到增删快，就要想到 add get remove + first last的方法
+// 看到Hash就要想到哈希表，就要想到唯一性，就要想到需要覆盖hashCode和equals方法
+// 看到Tree就要想到二叉树，就要想到排序，就要想到两个接口Comparator和Comparable
+
+// 通常这些容器都是不同步的

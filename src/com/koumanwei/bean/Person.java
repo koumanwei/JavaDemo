@@ -64,6 +64,6 @@ public class Person implements Comparable {
         Person person = (Person) o;
         // 如果年龄相同，继续比较姓名
         int temp = this.age - person.age;
-        return temp == 0 ? this.compareTo(person.name) : temp;
+        return temp == 0 ? this.name.compareTo(person.name) : temp;
     }
 }

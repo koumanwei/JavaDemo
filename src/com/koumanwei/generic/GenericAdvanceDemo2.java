@@ -31,6 +31,9 @@ public class GenericAdvanceDemo2 {
     /**
      * 打印集合中的元素
      * 这个子类只接收Person的子类
+     * 可以对类型进行限定
+     * ? extends E：接收E类型或者E的子类。上限
+     * ? super E：接收E类型或者E的父类。下限
      *
      * @param arrayList
      */
@@ -42,4 +45,16 @@ public class GenericAdvanceDemo2 {
         }
     }
     // 泛型的限定，只能接受Person的子类，不像通配符一样，什么类型都可以接收
+
+    /**
+     * 泛型的下限
+     *
+     * @param a1
+     */
+    private static void printCollentionq(Collection<? super Student> a1) {
+        Iterator<? super Student> iterator = a1.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+    }
 }
