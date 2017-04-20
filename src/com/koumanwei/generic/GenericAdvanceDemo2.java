@@ -39,6 +39,7 @@ public class GenericAdvanceDemo2 {
      */
     private static void printCollection(Collection<? extends Person> arrayList) {
         Iterator<? extends Person> iterator = arrayList.iterator();
+        // 因为传进来的都是Person或者Person的子类，所以用父类来接收
         while (iterator.hasNext()) {
             Person person = iterator.next();
             System.out.println(person);

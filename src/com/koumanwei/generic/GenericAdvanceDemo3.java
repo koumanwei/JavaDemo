@@ -30,5 +30,7 @@ public class GenericAdvanceDemo3 {
 
         arrayList3.addAll(arrayList1);
         arrayList3.addAll(arrayList2);
+        // 一般在存储元素的时候都是用的上限，因为这样取出都是按照上限类型来运算的
+        // 不会出现类型安全隐患
     }
 }

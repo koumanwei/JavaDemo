@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
- * 泛型限定_上限
+ * 泛型限定_下限
  * 2017-04-18 23:24
  *
  * @author koumanwei
@@ -43,7 +43,8 @@ public class GenericAdvanceDemo4 {
     }
 
     /**
-     * 按照Person姓名排序
+     * 按照Person姓名排序 这里注意：这个只能用父类中的内容进行排序，只能是父类中有的内容进行运算
+     * 排序要依次取出集合中的元素，如果用子类中的特有方法来进行排序的运算，就不行
      */
     static class CompareByPersonName implements Comparator<Person> {
         @Override
@@ -66,6 +67,7 @@ public class GenericAdvanceDemo4 {
 
     // 什么时候用下限呢？通常对集合中的元素进行取出操作的时候，可以使用下限
     // 也就是说，你存入任何类型，取出的时候，我都可以用其父类来进行接收
+
     // 什么时候用上限呢？通常对集合中的元素进行存储操作的时候，可以使用上限
-    //
+    // 下限用得并不多
 }

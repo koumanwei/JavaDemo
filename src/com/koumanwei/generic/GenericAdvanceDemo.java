@@ -51,5 +51,6 @@ public class GenericAdvanceDemo {
         T t = iterator.next();
         return t;
     }
-    // 这种用泛型方法和通配符的情况区别在于通配符不能接收
+    // 这种用泛型方法和通配符的情况区别在于通配符不能接收，因为集合中存放的是T类型，所以代表具体的类型
+    // 并可以被操作
 }
