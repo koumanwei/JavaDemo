@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef86b41-36b1-4169-b764-fcf438a59943" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/koumanwei/other/MathDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/koumanwei/other/RuntimeDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/koumanwei/other/SystemDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/koumanwei/io/DataStreamDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/koumanwei/io/RandomAccessFileDemo.java" afterPath="$PROJECT_DIR$/src/com/koumanwei/io/RandomAccessFileDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,119 +34,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ArraysDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ArraysDemo.java">
+      <file leaf-file-name="ObjectInputStreamDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/ObjectInputStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/CollDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1083">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="720">
+              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArraysDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ArraysDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticImportDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/StaticImportDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/other/SystemDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuntimeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/other/RuntimeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/other/MathDemo.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runtime.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
+      <file leaf-file-name="RandomAccessFileDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/RandomAccessFileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            <state relative-caret-position="444">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <file leaf-file-name="DataStreamDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/DataStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="666" column="63" lean-forward="false" selection-start-line="666" selection-start-column="63" selection-end-line="666" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="4344" column="7" lean-forward="true" selection-start-line="4344" selection-start-column="7" selection-end-line="4344" selection-end-column="7" />
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,6 +98,7 @@
       <find>ArrayList</find>
       <find>Student</find>
       <find>currentRuntime</find>
+      <find>wr</find>
     </findStrings>
     <replaceStrings>
       <replace>sex</replace>
@@ -198,16 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/ThreadCommunicationDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/ThreadCommunicationDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/ProducerConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/ProduceConsumerDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/LockDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/LockDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/LockDemo3.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/WaitSleepDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/StopThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/koumanwei/multi/JoinDemo.java" />
         <option value="$PROJECT_DIR$/src/com/koumanwei/base/wrapper/WrapperDemo.java" />
         <option value="$PROJECT_DIR$/src/com/koumanwei/collection/CollDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/koumanwei/collection/IteratorDemo.java" />
@@ -249,6 +163,16 @@
         <option value="$PROJECT_DIR$/src/com/koumanwei/other/SystemDemo.java" />
         <option value="$PROJECT_DIR$/src/com/koumanwei/other/RuntimeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/koumanwei/other/MathDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/PrintStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/PrintWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/SequenceInputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/SplitFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/SuffixFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/SplitDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/ObjectInputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/RandomAccessFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/koumanwei/io/DataStreamDemo.java" />
       </list>
     </option>
   </component>
@@ -259,9 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="23" />
-    <option name="width" value="1607" />
+    <option name="x" value="250" />
+    <option name="y" value="48" />
+    <option name="width" value="1291" />
     <option name="height" value="899" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -298,6 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -338,14 +264,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
+              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -375,6 +299,9 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.koumanwei.io" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.koumanwei.generic" />
       <recent name="com.koumanwei.collection" />
@@ -386,15 +313,15 @@
       <recent name="$PROJECT_DIR$/src/com/koumanwei/multi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathDemo">
-    <configuration default="false" name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RandomAccessFileDemo">
+    <configuration default="false" name="SequenceInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.koumanwei.collection.*" />
+          <option name="PATTERN" value="com.koumanwei.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.koumanwei.collection.ArraysDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.koumanwei.io.SequenceInputStreamDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -407,14 +334,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ArraysDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SplitFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.koumanwei.collection.*" />
+          <option name="PATTERN" value="com.koumanwei.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.koumanwei.collection.ArraysDemo2" />
+      <option name="MAIN_CLASS_NAME" value="com.koumanwei.io.SplitFileDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -427,14 +354,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="StaticImportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SplitDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.koumanwei.collection.*" />
+          <option name="PATTERN" value="com.koumanwei.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.koumanwei.collection.StaticImportDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.koumanwei.io.SplitDemo2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -447,14 +374,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ObjectInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.koumanwei.other.*" />
+          <option name="PATTERN" value="com.koumanwei.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.koumanwei.other.SystemDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.koumanwei.io.ObjectInputStreamDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -467,14 +394,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RandomAccessFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.koumanwei.other.*" />
+          <option name="PATTERN" value="com.koumanwei.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.koumanwei.other.MathDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.koumanwei.io.RandomAccessFileDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -868,19 +795,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArraysDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArraysDemo2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StaticImportDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SystemDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MathDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SequenceInputStreamDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SplitFileDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SplitDemo2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ObjectInputStreamDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RandomAccessFileDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MathDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SystemDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StaticImportDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArraysDemo2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArraysDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RandomAccessFileDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ObjectInputStreamDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SplitDemo2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SplitFileDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SequenceInputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -921,7 +848,10 @@
       <workItem from="1492392104494" duration="13135000" />
       <workItem from="1492484656331" duration="16797000" />
       <workItem from="1492564557686" duration="14856000" />
-      <workItem from="1492652861916" duration="14038000" />
+      <workItem from="1492652861916" duration="14071000" />
+      <workItem from="1492738603824" duration="12682000" />
+      <workItem from="1492762241000" duration="4235000" />
+      <workItem from="1492997861263" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="增加流程控制语句的使用">
       <created>1491041647333</created>
@@ -1077,11 +1007,25 @@
       <option name="project" value="LOCAL" />
       <updated>1492680769291</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="增加System类的使用">
+      <created>1492683268303</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1492683268303</updated>
+    </task>
+    <task id="LOCAL-00024" summary="增加对象的序列化">
+      <created>1492768712159</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1492768712159</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239323000" />
+    <option name="totallyTimeSpent" value="259658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1093,7 +1037,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="23" width="1607" height="899" extended-state="0" />
+    <frame x="250" y="48" width="1291" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1103,15 +1047,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33373493" sideWeight="0.13690105" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29036143" sideWeight="0.15336949" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1173913" sideWeight="0.49216866" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33373493" sideWeight="0.8630989" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4897324" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29036143" sideWeight="0.8466305" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07405103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1156,7 +1100,9 @@
     <MESSAGE value="增加泛型下限的使用" />
     <MESSAGE value="增加Collections类的使用" />
     <MESSAGE value="增加泛型的上下限" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加泛型的上下限" />
+    <MESSAGE value="增加System类的使用" />
+    <MESSAGE value="增加对象的序列化" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加对象的序列化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,7 +1113,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1176,78 +1122,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/multi/WaitSleepDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/multi/StopThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/multi/JoinDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/base/wrapper/WrapperDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/CollDemo2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/bean.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/VectorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ListDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/LinkedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/IteratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1259,10 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="298" column="19" lean-forward="false" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
-          <folding>
-            <element signature="e#10907#10908#0" expanded="false" />
-            <element signature="e#10945#10946#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1354,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,9 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1418,224 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16542">
           <caret line="989" column="13" lean-forward="false" selection-start-line="989" selection-start-column="13" selection-end-line="989" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#108850#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5767#5768#0" expanded="false" />
-            <element signature="e#5800#5801#0" expanded="false" />
-            <element signature="e#6596#6597#0" expanded="false" />
-            <element signature="e#6640#6641#0" expanded="false" />
-            <element signature="e#8418#8419#0" expanded="false" />
-            <element signature="e#8445#8446#0" expanded="false" />
-            <element signature="e#9063#9064#0" expanded="false" />
-            <element signature="e#9107#9108#0" expanded="false" />
-            <element signature="e#11206#11207#0" expanded="false" />
-            <element signature="e#11239#11240#0" expanded="false" />
-            <element signature="e#11334#11335#0" expanded="false" />
-            <element signature="e#11377#11378#0" expanded="false" />
-            <element signature="e#11471#11472#0" expanded="false" />
-            <element signature="e#11513#11514#0" expanded="false" />
-            <element signature="e#23674#23675#0" expanded="false" />
-            <element signature="e#23725#23726#0" expanded="false" />
-            <element signature="e#23800#23801#0" expanded="false" />
-            <element signature="e#23850#23851#0" expanded="false" />
-            <element signature="e#24648#24649#0" expanded="false" />
-            <element signature="e#24702#24703#0" expanded="false" />
-            <element signature="e#24991#24992#0" expanded="false" />
-            <element signature="e#25043#25044#0" expanded="false" />
-            <element signature="e#25347#25348#0" expanded="false" />
-            <element signature="e#25401#25402#0" expanded="false" />
-            <element signature="e#25690#25691#0" expanded="false" />
-            <element signature="e#25742#25743#0" expanded="false" />
-            <element signature="e#26048#26049#0" expanded="false" />
-            <element signature="e#26104#26105#0" expanded="false" />
-            <element signature="e#26395#26396#0" expanded="false" />
-            <element signature="e#26449#26450#0" expanded="false" />
-            <element signature="e#26754#26755#0" expanded="false" />
-            <element signature="e#26809#26810#0" expanded="false" />
-            <element signature="e#27099#27100#0" expanded="false" />
-            <element signature="e#27152#27153#0" expanded="false" />
-            <element signature="e#28935#28936#0" expanded="false" />
-            <element signature="e#28975#28976#0" expanded="false" />
-            <element signature="e#29264#29265#0" expanded="false" />
-            <element signature="e#29320#29321#0" expanded="false" />
-            <element signature="e#34468#34469#0" expanded="false" />
-            <element signature="e#34526#34527#0" expanded="false" />
-            <element signature="e#34867#34868#0" expanded="false" />
-            <element signature="e#34911#34912#0" expanded="false" />
-            <element signature="e#35256#35257#0" expanded="false" />
-            <element signature="e#35301#35302#0" expanded="false" />
-            <element signature="e#36808#36809#0" expanded="false" />
-            <element signature="e#36873#36874#0" expanded="false" />
-            <element signature="e#36902#36903#0" expanded="false" />
-            <element signature="e#36952#36953#0" expanded="false" />
-            <element signature="e#36997#36998#0" expanded="false" />
-            <element signature="e#37057#37058#0" expanded="false" />
-            <element signature="e#37398#37399#0" expanded="false" />
-            <element signature="e#37442#37443#0" expanded="false" />
-            <element signature="e#37489#37490#0" expanded="false" />
-            <element signature="e#37581#37582#0" expanded="false" />
-            <element signature="e#37698#37699#0" expanded="false" />
-            <element signature="e#37763#37764#0" expanded="false" />
-            <element signature="e#38580#38581#0" expanded="false" />
-            <element signature="e#38630#38631#0" expanded="false" />
-            <element signature="e#38661#38662#0" expanded="false" />
-            <element signature="e#38705#38706#0" expanded="false" />
-            <element signature="e#39205#39206#0" expanded="false" />
-            <element signature="e#39260#39261#0" expanded="false" />
-            <element signature="e#39303#39304#0" expanded="false" />
-            <element signature="e#39367#39368#0" expanded="false" />
-            <element signature="e#41765#41766#0" expanded="false" />
-            <element signature="e#41839#41840#0" expanded="false" />
-            <element signature="e#41890#41891#0" expanded="false" />
-            <element signature="e#41946#41947#0" expanded="false" />
-            <element signature="e#41999#42000#0" expanded="false" />
-            <element signature="e#42056#42057#0" expanded="false" />
-            <element signature="e#42105#42106#0" expanded="false" />
-            <element signature="e#42167#42168#0" expanded="false" />
-            <element signature="e#42214#42215#0" expanded="false" />
-            <element signature="e#42265#42266#0" expanded="false" />
-            <element signature="e#42686#42687#0" expanded="false" />
-            <element signature="e#42729#42730#0" expanded="false" />
-            <element signature="e#44090#44091#0" expanded="false" />
-            <element signature="e#44126#44127#0" expanded="false" />
-            <element signature="e#44165#44166#0" expanded="false" />
-            <element signature="e#44207#44208#0" expanded="false" />
-            <element signature="e#44320#44321#0" expanded="false" />
-            <element signature="e#44356#44357#0" expanded="false" />
-            <element signature="e#44382#44383#0" expanded="false" />
-            <element signature="e#44430#44431#0" expanded="false" />
-            <element signature="e#44539#44540#0" expanded="false" />
-            <element signature="e#44575#44576#0" expanded="false" />
-            <element signature="e#44601#44602#0" expanded="false" />
-            <element signature="e#44647#44648#0" expanded="false" />
-            <element signature="e#44776#44777#0" expanded="false" />
-            <element signature="e#44812#44813#0" expanded="false" />
-            <element signature="e#44838#44839#0" expanded="false" />
-            <element signature="e#44884#44885#0" expanded="false" />
-            <element signature="e#45776#45777#0" expanded="false" />
-            <element signature="e#45836#45837#0" expanded="false" />
-            <element signature="e#46195#46196#0" expanded="false" />
-            <element signature="e#46244#46245#0" expanded="false" />
-            <element signature="e#48930#48931#0" expanded="false" />
-            <element signature="e#48990#48991#0" expanded="false" />
-            <element signature="e#49228#49229#0" expanded="false" />
-            <element signature="e#49304#49305#0" expanded="false" />
-            <element signature="e#52542#52543#0" expanded="false" />
-            <element signature="e#52630#52631#0" expanded="false" />
-            <element signature="e#52659#52660#0" expanded="false" />
-            <element signature="e#52741#52742#0" expanded="false" />
-            <element signature="e#52797#52798#0" expanded="false" />
-            <element signature="e#52862#52863#0" expanded="false" />
-            <element signature="e#53101#53102#0" expanded="false" />
-            <element signature="e#53166#53167#0" expanded="false" />
-            <element signature="e#53211#53212#0" expanded="false" />
-            <element signature="e#53278#53279#0" expanded="false" />
-            <element signature="e#53337#53338#0" expanded="false" />
-            <element signature="e#53396#53397#0" expanded="false" />
-            <element signature="e#53440#53441#0" expanded="false" />
-            <element signature="e#53497#53498#0" expanded="false" />
-            <element signature="e#53555#53556#0" expanded="false" />
-            <element signature="e#53613#53614#0" expanded="false" />
-            <element signature="e#53656#53657#0" expanded="false" />
-            <element signature="e#53712#53713#0" expanded="false" />
-            <element signature="e#53769#53770#0" expanded="false" />
-            <element signature="e#53826#53827#0" expanded="false" />
-            <element signature="e#53868#53869#0" expanded="false" />
-            <element signature="e#53923#53924#0" expanded="false" />
-            <element signature="e#53980#53981#0" expanded="false" />
-            <element signature="e#54037#54038#0" expanded="false" />
-            <element signature="e#54079#54080#0" expanded="false" />
-            <element signature="e#54134#54135#0" expanded="false" />
-            <element signature="e#54171#54172#0" expanded="false" />
-            <element signature="e#54218#54219#0" expanded="false" />
-            <element signature="e#54254#54255#0" expanded="false" />
-            <element signature="e#54302#54303#0" expanded="false" />
-            <element signature="e#54354#54355#0" expanded="false" />
-            <element signature="e#54409#54410#0" expanded="false" />
-            <element signature="e#54460#54461#0" expanded="false" />
-            <element signature="e#54516#54517#0" expanded="false" />
-            <element signature="e#55460#55461#0" expanded="false" />
-            <element signature="e#55508#55509#0" expanded="false" />
-            <element signature="e#55561#55562#0" expanded="false" />
-            <element signature="e#55625#55626#0" expanded="false" />
-            <element signature="e#55691#55692#0" expanded="false" />
-            <element signature="e#55757#55758#0" expanded="false" />
-            <element signature="e#55813#55814#0" expanded="false" />
-            <element signature="e#55865#55866#0" expanded="false" />
-            <element signature="e#55923#55924#0" expanded="false" />
-            <element signature="e#55976#55977#0" expanded="false" />
-            <element signature="e#58520#58521#0" expanded="false" />
-            <element signature="e#58595#58596#0" expanded="false" />
-            <element signature="e#60757#60758#0" expanded="false" />
-            <element signature="e#60807#60808#0" expanded="false" />
-            <element signature="e#60842#60843#0" expanded="false" />
-            <element signature="e#60891#60892#0" expanded="false" />
-            <element signature="e#61224#61225#0" expanded="false" />
-            <element signature="e#61274#61275#0" expanded="false" />
-            <element signature="e#61309#61310#0" expanded="false" />
-            <element signature="e#61359#61360#0" expanded="false" />
-            <element signature="e#61735#61736#0" expanded="false" />
-            <element signature="e#61789#61790#0" expanded="false" />
-            <element signature="e#61824#61825#0" expanded="false" />
-            <element signature="e#61873#61874#0" expanded="false" />
-            <element signature="e#61920#61921#0" expanded="false" />
-            <element signature="e#61963#61964#0" expanded="false" />
-            <element signature="e#62405#62406#0" expanded="false" />
-            <element signature="e#62458#62459#0" expanded="false" />
-            <element signature="e#62689#62690#0" expanded="false" />
-            <element signature="e#62761#62762#0" expanded="false" />
-            <element signature="e#63099#63100#0" expanded="false" />
-            <element signature="e#63153#63154#0" expanded="false" />
-            <element signature="e#63188#63189#0" expanded="false" />
-            <element signature="e#63238#63239#0" expanded="false" />
-            <element signature="e#63285#63286#0" expanded="false" />
-            <element signature="e#63328#63329#0" expanded="false" />
-            <element signature="e#63770#63771#0" expanded="false" />
-            <element signature="e#63823#63824#0" expanded="false" />
-            <element signature="e#63866#63867#0" expanded="false" />
-            <element signature="e#63947#63948#0" expanded="false" />
-            <element signature="e#64472#64473#0" expanded="false" />
-            <element signature="e#64517#64518#0" expanded="false" />
-            <element signature="e#66295#66296#0" expanded="false" />
-            <element signature="e#66376#66377#0" expanded="false" />
-            <element signature="e#66419#66420#0" expanded="false" />
-            <element signature="e#66500#66501#0" expanded="false" />
-            <element signature="e#66547#66548#0" expanded="false" />
-            <element signature="e#66638#66639#0" expanded="false" />
-            <element signature="e#66761#66762#0" expanded="false" />
-            <element signature="e#66852#66853#0" expanded="false" />
-            <element signature="e#68111#68112#0" expanded="false" />
-            <element signature="e#68159#68160#0" expanded="false" />
-            <element signature="e#69934#69935#0" expanded="false" />
-            <element signature="e#70025#70026#0" expanded="false" />
-            <element signature="e#70068#70069#0" expanded="false" />
-            <element signature="e#70159#70160#0" expanded="false" />
-            <element signature="e#70206#70207#0" expanded="false" />
-            <element signature="e#70287#70288#0" expanded="false" />
-            <element signature="e#73386#73387#0" expanded="false" />
-            <element signature="e#73420#73421#0" expanded="false" />
-            <element signature="e#73593#73594#0" expanded="false" />
-            <element signature="e#73629#73630#0" expanded="false" />
-            <element signature="e#74510#74511#0" expanded="false" />
-            <element signature="e#74558#74559#0" expanded="false" />
-            <element signature="e#76853#76854#0" expanded="false" />
-            <element signature="e#76905#76906#0" expanded="false" />
-            <element signature="e#76967#76968#0" expanded="false" />
-            <element signature="e#77018#77019#0" expanded="false" />
-            <element signature="e#77199#77200#0" expanded="false" />
-            <element signature="e#77248#77249#0" expanded="false" />
-            <element signature="e#77309#77310#0" expanded="false" />
-            <element signature="e#77359#77360#0" expanded="false" />
-            <element signature="e#93339#93340#0" expanded="false" />
-            <element signature="e#93413#93414#0" expanded="false" />
-            <element signature="e#96267#96268#0" expanded="false" />
-            <element signature="e#96317#96318#0" expanded="false" />
-            <element signature="e#99305#99306#0" expanded="false" />
-            <element signature="e#99351#99352#0" expanded="false" />
-            <element signature="e#105165#105166#0" expanded="false" />
-            <element signature="e#105253#105254#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1643,7 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1651,7 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1659,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1667,7 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,9 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1685,104 +1322,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="4344" column="7" lean-forward="true" selection-start-line="4344" selection-start-column="7" selection-end-line="4344" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="76626">
+          <caret line="4344" column="7" lean-forward="false" selection-start-line="4344" selection-start-column="7" selection-end-line="4344" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/CollDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
+        <state relative-caret-position="180">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ArraysDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="576">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/ArraysDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="666">
           <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="11286">
           <caret line="666" column="63" lean-forward="false" selection-start-line="666" selection-start-column="63" selection-end-line="666" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/collection/StaticImportDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/other/SystemDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="360">
           <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/other/RuntimeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/koumanwei/other/MathDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/PrintStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/PrintWriterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/CopyMp3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/LineNumberReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/SequenceInputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/SuffixFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#417#418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/SplitDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/SplitFileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/ObjectInputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/RandomAccessFileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/koumanwei/io/DataStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
